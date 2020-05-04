@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="">
+    <script>
+function reload(){
+location.href=location.href
+}
+setInterval('reload()',500)
+</script>
+</head>
+
+<body>
+
+<div id="list">
+ 
+  <p><iframe id="myFrame" src="atc1.txt" frameborder="0" height="400"
+      width="95%"></iframe></p>
+      <script>
+var frame = document.getElementById('myFrame');
+    frame.onload = function () {
+        var body = frame.contentWindow.document.querySelector('body');
+        body.style.color = 'red';
+        body.style.fontSize = '20px';
+        body.style.lineHeight = '20px';
+    };
+</script>
+</div>
+</body>
+</html>
