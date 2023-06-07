@@ -1,6 +1,6 @@
-# FlyMyPlane (AKA AddyBot)
+# FlyMyPlane
 ## Introduction
-FlyMyplane is an addon for Lockheed Martin's Prepar3D® simulation software that allows a trainer to have full control of a students flight controls via irc protocols. This version was made and tested on Twitch which allows users (Chat) to send text to the platform via IRC. It allows, for instance a twitch streamer, to open P3D, start a flight and connect this system with their Twitch accont so that the software gets access to the chat feed. This allows the system to get a read on users typing specific commands.
+FlyMyplane (aka AddyBot) is an addon for Lockheed Martin's Prepar3D® simulation software that allows a trainer to have full control of a students flight controls via irc protocols. This version was made and tested on Twitch which allows users (Chat) to send text to the platform via IRC. It allows, for instance a twitch streamer, to open P3D, start a flight and connect this system with their Twitch accont so that the software gets access to the chat feed. This allows the system to get a read on users typing specific commands.
 
 For instance if a user types "!__ap" in chat, it is recognized as a command to engage the auto-pilot of the system.
 
